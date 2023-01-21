@@ -288,7 +288,7 @@ export default function Home () {
     <>
       <Head>
         <title>My Todos</title>
-        <meta name='og:title' content='My Todos DApp' />
+        <meta name='og:title' content='My Todos DApp - Claim an NFT reward for every full list that is completed!' />
         <meta
           name='description'
           content='My Todos DApp - Claim an NFT reward for every full list that is completed!'
