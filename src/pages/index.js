@@ -227,8 +227,8 @@ export default function Home () {
     <>
       <Head>
         <title>My Todos</title>
-        <meta name='description' content='Whitelist-Dapp' />
-        <link rel='icon' href='/favicon.ico' />
+        <meta name='description' content='My Todos DApp' />
+        <link rel='icon' href='/favicon.png' />
       </Head>
       <div className={styles.main}>
         <div className={styles.card}>
