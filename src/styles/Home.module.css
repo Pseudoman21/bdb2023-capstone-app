@@ -74,16 +74,21 @@
 }
 
 .card button {
-  background-color: #9049E6;
+  background-color: #2A2C41;
   padding: 8px 13px;
   border: none;
   color: #fff;
+  width: 50px;
   cursor: pointer;
   font-size: 1.5rem;
 }
 
+.card button:hover {
+  background-color: #161722;
+}
+
 .card .trash {
-  background-color: #E64D3D;
+  background-color: #9b3429;
   transition: all 0.3s ease-in-out;
 }
 
@@ -98,7 +103,7 @@
 }
 
 .card .trash:hover {
-  background-color: #9a3024;
+  background-color: rgb(103, 29, 21);
   transition: all 0.3s ease-in-out;
 }
 

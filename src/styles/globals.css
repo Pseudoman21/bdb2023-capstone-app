@@ -87,7 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(231deg, #873d3d, #993e3e);
+  background: rgb(42, 44, 65);
 }
 
 a {
@@ -97,6 +97,15 @@ a {
 
 .d-flex {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.j-content-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .w-100 {
