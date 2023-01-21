@@ -248,7 +248,11 @@ export default function Home () {
             {todos
               .filter(({ deleted }) => !deleted)
               .map(({ todo, completed, id }) => (
-                <div className='d-flex' style={{ maxWidth: '19.6rem' }}>
+                <div
+                  className='d-flex'
+                  style={{ maxWidth: '19.6rem' }}
+                  key={id}
+                >
                   <p className='m-auto'>{todo}</p>
                   {completed ? (
                     <BsHandThumbsUp
