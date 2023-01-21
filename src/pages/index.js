@@ -49,6 +49,7 @@ export default function Home () {
     }
   }, [todos])
 
+  console.log(nfts)
   const shortenAdd = address => {
     const textAddr = '' + address + ''
     if (address) {
