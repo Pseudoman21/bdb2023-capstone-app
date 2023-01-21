@@ -201,7 +201,7 @@ export default function Home () {
     }
 
     if (loading) {
-      return <button className={`w-100 ${styles.button}`}>Loading...</button>
+      return <button className={`w-100 ${styles.button}`}>Claiming...</button>
     }
 
     if (finished && !claimed) {
