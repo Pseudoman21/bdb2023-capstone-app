@@ -5,11 +5,6 @@ export const abi = [
         internalType: 'string',
         name: 'baseURI',
         type: 'string'
-      },
-      {
-        internalType: 'address',
-        name: 'whitelistContract',
-        type: 'address'
       }
     ],
     stateMutability: 'nonpayable',
@@ -299,13 +294,6 @@ export const abi = [
   },
   {
     inputs: [],
-    name: 'presaleMint',
-    outputs: [],
-    stateMutability: 'payable',
-    type: 'function'
-  },
-  {
-    inputs: [],
     name: 'presaleStarted',
     outputs: [
       {
@@ -402,13 +390,6 @@ export const abi = [
       }
     ],
     name: 'setPaused',
-    outputs: [],
-    stateMutability: 'nonpayable',
-    type: 'function'
-  },
-  {
-    inputs: [],
-    name: 'startPresale',
     outputs: [],
     stateMutability: 'nonpayable',
     type: 'function'
@@ -581,4 +562,4 @@ export const abi = [
     type: 'receive'
   }
 ]
-export const NFT_CONTRACT_ADDRESS = '0x711534ac4e4d47Be37922F214b72c80265732542'
+export const NFT_CONTRACT_ADDRESS = '0x8134549e2D4c3603d7fE37EaE6c03aC3Df2B24e5'
